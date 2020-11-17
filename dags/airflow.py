@@ -24,7 +24,7 @@ image = 'spark:latest'
 tasks = ['songplay_table_010_STG', 'songplay_table_020_TGT', 'users_table_010_STG', 'users_table_020_TGT', 'songs_table_010_STG', 'songs_table_020_TGT']
 
 container_name = '{{ dag.dag_id }}_{{ ds_nodash }}'
-git_repo = 'datateam_semantic_signals'
+git_repo = 'dataloading_using_airflow'
 
 print("=========================================================================================================================")
 print("dag_id is: " + dag_id)
